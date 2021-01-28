@@ -1,0 +1,22 @@
+{
+  "name": "streetview",
+  "version": "1.0.0",
+  "description": "personnal project road photo manager",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-electron": "electron .",
+    "start": "node ./main-without-electron.js",
+    "build-dev": "electron-builder -c ./builders/electron-builder-dev.json --win"
+  },
+  "author": "Groutch",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}

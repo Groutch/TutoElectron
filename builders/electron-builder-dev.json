@@ -1,0 +1,12 @@
+{
+    "appId": "fr.groutch.electron",
+    "artifactName": "${productName} - ${version} - COMMIT-TAG.${ext}",
+    "win": {
+        "target": [{
+            "target": "portable",
+            "arch": [
+                "x64"
+            ]
+        }]
+    }
+}
